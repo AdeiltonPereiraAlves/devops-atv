@@ -1,0 +1,28 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+crash.log
+crash.*.log
+
+# Variaveis com valores (podem ter dados sensiveis)
+terraform.tfvars
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Credenciais
+.env
+.env.*
+*.pem
+
+# ZIP gerado (pode ser recriado com: Compress-Archive -Path main.tf, variables.tf, outputs.tf -DestinationPath terraform-ifpb.zip)
+terraform-ifpb.zip
+
+# Documentacao local (nao enviar ao repo)
+README.md
+PASSO-A-PASSO.md
+
+# Sistema
+.DS_Store
+Thumbs.db

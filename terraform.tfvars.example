@@ -1,0 +1,5 @@
+# Copie para terraform.tfvars e preencha
+# cp terraform.tfvars.example terraform.tfvars
+
+nome_aluno = "seu-nome"
+aws_region = "us-east-1"
